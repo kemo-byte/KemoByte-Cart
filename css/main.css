@@ -1,0 +1,23 @@
+img {
+  /* width: 300px !important; */
+  width:100% important;
+  height: 300px !important;
+  background: lightgreen;
+  background: radial-gradient(white 30%, lightgreen 70%);
+}
+.fa-star,.fa-star-half{
+    color:rgb(226, 213, 24);
+    padding: 3% 0;
+}
+.cart_count {
+    background: rgb(153 153 153);
+    color: #edcb1c;
+    padding: 0 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+a,a:hover{
+  color:#000
+}
