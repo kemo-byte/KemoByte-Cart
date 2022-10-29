@@ -21,9 +21,10 @@ if (isset($_POST['add'])) {
     } else {
 
         $item = array("product_id" => $_POST['product_id']);
+            $_SESSION['cart'][] = $item;
+
     }
 
-    $_SESSION['cart'][0] = $item;
 
     print_r($_SESSION['cart']);
 }
