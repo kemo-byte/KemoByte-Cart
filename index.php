@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 include('inc/components.php');
 include('inc/DB.php');
 
@@ -21,8 +22,7 @@ if (isset($_POST['add'])) {
     } else {
 
         $item = array("product_id" => $_POST['product_id']);
-            $_SESSION['cart'][] = $item;
-
+        $_SESSION['cart'][] = $item;
     }
 
 
